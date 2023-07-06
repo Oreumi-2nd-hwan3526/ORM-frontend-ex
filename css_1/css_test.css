@@ -1,0 +1,26 @@
+span {
+    color: blue;
+    font-size: 24px;
+}
+
+/*class로 적용*/
+.first {
+    color: blue;
+    font-size: 24px;
+}
+
+/*id로 적용*/
+#second {
+    color: red;
+    font-size: 24px;
+}
+
+/*중복 적용*/
+p, span {
+    color: green;
+}
+
+div>p {
+    color: violet;
+    font-size: 24px;
+}
